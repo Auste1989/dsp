@@ -55,8 +55,7 @@ Command | Description
 `ls -l`	 | lists all contents of  working directory in long format
 `ls -lh` |
 `ls -lah` |
-`ls -t` | lists	contents of working directory sorted by	last modified date and \
-time
+`ls -t` | lists	contents of working directory sorted by	last modified date and time
 `ls -Glp` |
 
 ---
