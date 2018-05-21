@@ -24,15 +24,15 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 Command description | Command
 ------------------- | -------
 show current working directory path | pwd
-creating a directory | mkdir <directory name>
-deleting a directory | rm -r <directory name>
-creating a file using 'touch' command | touch <file name>
-deleting a file | rm <file name>
-renaming a file | mv <old file name> <new file name>
+creating a directory | mkdir directory name
+deleting a directory | rm -r directory name
+creating a file using 'touch' command | touch file name
+deleting a file | rm file name
+renaming a file | mv old file name new file name
 listing hidden files | ls -a
-copying a file from one directory to another | cp /<source file> /<destination directory>
-counting lines, words and charachters in the file | wc <file name>
-returning a list of unique lines in a file | uniq <file name>
+copying a file from one directory to another | cp /source file /destination directory
+counting lines, words and charachters in the file | wc file name
+returning a list of unique lines in a file | uniq file name
 
 ---
 
