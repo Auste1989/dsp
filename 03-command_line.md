@@ -33,6 +33,8 @@ listing hidden files | ls -a
 copying a file from one directory to another | cp /*source_file* /*destination_directory*
 counting lines, words and charachters in the file | wc *file_name*
 returning a list of unique lines in a file | uniq *file_name*
+search for lines matching the given pattern and return results | grep **pattern** *file_name* 
+find and replace | sed **action/search_string/replacement_string/[g]** *file_name*
 
 ---
 
@@ -53,10 +55,10 @@ Command | Description
 `ls` | lists directories and files in the working directory
 `ls -a` | lists	 all contents of  working directory, including hidden files
 `ls -l`	 | lists all contents of  working directory in long format
-`ls -lh` |
-`ls -lah` |
+`ls -lh` | lists working directory contents in long human readable format
+`ls -lah` | lists all working directory contents (incl. hidden) in long human readable format
 `ls -t` | lists	contents of working directory sorted by	last modified date and time
-`ls -Glp` |
+`ls -Glp` |  lists contents of the working directory in long format, adds '/' at the end of each directory name and enables colourized output
 
 ---
 
@@ -64,7 +66,15 @@ Command | Description
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > **My Favourite ls options are:**
+
+Command | Description
+------- | -----------
+ls -m   | Displays the names as a comma-separate list
+ls -R   | Displays sub-directories as well
+ls -u   | Displays files by the file access time.
+ls -F   | Flags filenames
+ls -p   | Displays directories with /
 
 ---
 
@@ -72,7 +82,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'xargs' command allows iteration through a list (item by item).  It can be used for updating multiple files at ones or searching for text in each file in the directory.
 
  
 
