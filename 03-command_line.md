@@ -82,7 +82,7 @@ ls -p   | Displays directories with /
 
 What does `xargs` do? Give an example of how to use it.
 
-> > 'xargs' command allows iteration through a list (item by item).  It can be used for updating multiple files at ones or searching for text in each file in the directory.
+> > 'xargs' command allows iteration through a list (item by item).  It can be used for updating multiple files at once or searching for text in each file in the directory.
 
  
 
