@@ -12,9 +12,9 @@ avg_othersWeight = owt.mean()
 
 diff = avg_firstsWeight - avg_othersWeight
 
-print("The mean weight (in lb) of first borns' is ", str(round(avg_firstsWeight, 1)), ", while that of non-first borns' is ", str(round(avg_othersWeight, 1)))
+print("The mean weight (in lb) of first borns' is", str(round(avg_firstsWeight, 1)), ", while that of non-first borns' is", str(round(avg_othersWeight, 1)))
 if avg_firstsWeight > avg_othersWeight:
-    print("The first borns are, on average,", str(round(abs(diff), 2))+ 'lb', "("+ str(round(abs(diff * 16), 2))+" ounces)", "heavier than non-first borns.")
+    print("The first borns are, on average,", str(round(abs(diff), 2)), 'lb', "("+ str(round(abs(diff * 16), 2))+" ounces)", "heavier than non-first borns.")
 elif avg_firstsWeight < avg_othersWeight:
     print("The first borns are, on average,", str(round(abs(diff), 2))+ 'lb', "("+ str(round(abs(diff * 16), 2))+" ounces)", "lighter than non-first borns.")
 else:
@@ -29,9 +29,9 @@ print("First borns' weight also has slightly more variance", "("+str(round(fwt_v
 **Results**
 ------------
 
-The mean weight (in lb) of first borns' is  7.2 , while that of non-first borns' is  7.3. 
-The first borns are, on average, 0.12lb (2.0 ounces) lighter than non-first borns. 
-First borns' weight also has slightly more variance (0.07) than that of non-first borns. 
+The mean weight (in lb) of first borns' is  7.2, while that of non-first borns' is 7.3.  
+The first borns are, on average, 0.12 lb (2.0 ounces) lighter than non-first borns.  
+First borns' weight also has slightly more variance (0.07) than that of non-first borns.  
 
 **Cohen's Effect Size**
 ---------------------
@@ -46,7 +46,7 @@ print("The Cohen's Effect Size on weight is", str(round(d_weight, 2))+ ", which 
 ```
 
 **Cohen's Effect Size Results**
------------------
+-------------------------------
 
 The Cohen's Effect Size on weight is -0.09, which is considered small.
 Therefore, the results suggest that there is no clear difference between the weight of the first borns
