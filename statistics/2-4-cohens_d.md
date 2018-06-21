@@ -35,7 +35,7 @@ The first borns are, on average, 0.12lb (2.0 ounces) lighter than non-first born
 
 First borns' weight also has slightly more variance (0.07) than that of non-first borns.
 
-**Cohen Effect Size**
+**Cohen's Effect Size**
 ---------------------
 ```python
 d_weight = CohenEffectSize(fwt, owt)
@@ -46,7 +46,7 @@ print("The Cohen's Effect Size on weight is", str(round(d_weight, 2))+ ", which 
      "Cohen's Effect Size on weight ("+ str(round(d_weight, 2))+") "+ "is slightly larger than that of pregnancy length ("+ str(round(d_prglngth, 2))+"), however since both are very small, the conclusion is that pregrnancy order does not play a significant role either on pregnancy length or on the weight of the baby.")
 ```
 
-**Cohen Size Effect Results**
+**Cohen's Size Effect Results**
 -----------------
 
 The Cohen's Effect Size on weight is -0.09, which is considered small.
