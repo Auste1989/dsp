@@ -1,7 +1,8 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
 >>
-*Basic Analysis*
+**Basic Analysis**
+
 fwt = firsts.totalwgt_lb
 owt = others.totalwgt_lb
 
@@ -23,12 +24,14 @@ owt_var = owt.var()
 
 print("First borns' weight also has slightly more variance", "("+str(round(fwt_var - owt_var, 2))+")", "than that of non-first borns.")
 
-*Results*
+**Results**
+
 The mean weight (in lb) of first borns' is  7.2 , while that of non-first borns' is  7.3
 The first borns are, on average, 0.12lb (2.0 ounces) lighter than non-first borns.
 First borns' weight also has slightly more variance (0.07) than that of non-first borns.
 
-*Cohen Effect Size*
+**Cohen Effect Size**
+
 d_weight = CohenEffectSize(fwt, owt)
 
 print("The Cohen's Effect Size on weight is", str(round(d_weight, 2))+ ", which is considered small.\n"
@@ -36,7 +39,8 @@ print("The Cohen's Effect Size on weight is", str(round(d_weight, 2))+ ", which 
       "and the weight of non-first born babies.\n"
      "Cohen's Effect Size on weight ("+ str(round(d_weight, 2))+") "+ "is slightly larger than that of pregnancy length ("+ str(round(d_prglngth, 2))+"), however since both are very small, the conclusion is that pregrnancy order does not play a significant role either on pregnancy length or on the weight of the baby.")
 
-*Cohen Results*
+**Cohen Results**
+
 The Cohen's Effect Size on weight is -0.09, which is considered small.
 Therefore, the results suggest that there is no clear difference between the weight of the first borns
 and the weight of non-first born babies.
