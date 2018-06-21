@@ -40,8 +40,11 @@ First borns' weight also has slightly more variance (0.07) than that of non-firs
 ```python
 d_weight = CohenEffectSize(fwt, owt)
 
-print("The Cohen's Effect Size on weight is", str(round(d_weight, 2))+ ", which is considered quite small.\n"
- "Cohen's Effect Size on weight ("+ str(round(d_weight, 2))+") "+ "is slightly larger than that of pregnancy length ("+ str(round(d_prglngth, 2))+"), however since both are very small, my conclusion is that pregnancy order does not play a significant role either on pregnancy length or on the weight of the baby.")
+print("The Cohen's Effect Size on weight is", str(round(d_weight, 2))+ ", which is considered small.\n"
+     "Cohen's Effect Size on weight ("+ str(round(d_weight, 2))+") "+ "is slightly larger than that of pregnancy length ("+ str(round(d_prglngth, 2))+")"
+     ", however, since both are very small, "
+      "my conclusion is that pregnancy order does not play a significant role either on pregnancy length "
+      "or on the weight of the baby.")
 ```
 
 **Cohen's Effect Size Results**
