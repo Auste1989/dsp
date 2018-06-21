@@ -52,4 +52,5 @@ print("The Cohen's Effect Size on weight is", str(round(d_weight, 2))+ ", which 
 The Cohen's Effect Size on weight is -0.09, which is considered small.
 Therefore, the results suggest that there is no clear difference between the weight of the first borns
 and the weight of non-first born babies.
+
 Cohen's Effect Size on weight (-0.09) is slightly larger than that of pregnancy length (0.03), however since both are very small, the conclusion is that pregrnancy order does not play a significant role either on pregnancy length or on the weight of the baby.
