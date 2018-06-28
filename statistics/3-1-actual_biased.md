@@ -12,7 +12,7 @@ thinkplot.Pmfs([actual, biased])
 thinkplot.Config(xlabel = 'PMF', ylabel = 'Number of Children in Household')
 ```
 
-/Users/auste_m/Desktop/Actual_vs_Biased_Plot.png
+![Actual vs. Biased Plot](Actual_vs_Biased_Plot.png)
 
 ```python
 print('The mean of the actual distribution is', str(round(actual.Mean(), 2)))
@@ -35,4 +35,4 @@ for num in act_numkdhh:
 thinkplot.Bar(act_numkdhh, diffs)
 ```
 
-/Users/auste_m/Desktop/Diff_Plot.png
+![Differences Plot](Diff_Plot.png)
