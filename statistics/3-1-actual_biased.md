@@ -35,4 +35,4 @@ for num in act_numkdhh:
 thinkplot.Bar(act_numkdhh, diffs)
 ```
 
-<img src="Diff_Plot.png" width="450")
+<img src="Diff_Plot.png" width="450">
