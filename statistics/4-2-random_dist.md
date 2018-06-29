@@ -1,6 +1,6 @@
 [Think Stats Chapter 4 Exercise 2](http://greenteapress.com/thinkstats2/html/thinkstats2005.html#toc41) (a random distribution)
 
->> **Solution**
+>>
 ```python
 sample = np.random.random(1000)
 sample_pmf = thinkstats2.Pmf(sample)
