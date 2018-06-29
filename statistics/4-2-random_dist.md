@@ -9,7 +9,7 @@ thinkplot.Pmf(sample_pmf, linewidth = 0.1)
 thinkplot.Config(xlabel = 'Randon number', ylabel = 'PMF')
 ```
 **PMF**  
-<img src="Random Number PMF.png" width="450">
+<img src="Random_Number_PMF.png" width="450">
 
 ```python
 sample_cdf = thinkstats2.Cdf(sample, label = 'Randoms')
@@ -17,4 +17,4 @@ thinkplot.Cdf(sample_cdf)
 thinkplot.Config(xlabel = 'Random Numbers', ylabel = 'CDF')
 ```  
 **CDF**  
-<img src="Random Number CDF.png" width="450">
+<img src="Random_Number_CDF.png" width="450">
