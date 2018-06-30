@@ -102,7 +102,9 @@ P(T) = P(FT) + P(IT) = 1/125 + 1/300 = 17/1500
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> 
+>> To begin with, the definition of probabily itself is different between the two different statistics "schools". In frequentist statistics only repeatable random events have probabilities, while in Bayesian statistics, any event can have a probability associated to it.  
+Also, frequentists do not update probabilies with Bayes' theorem, probabilities are only updated when direct physical evidence is present or after analyzing physical properties of the objects involved in the process that generates probabilistic outcomes.  
+The biggest frequentists' argument against Bayesian Theorem is the use of historical(prior) probabilities, that are inherently subjective.
 
 ---
 
