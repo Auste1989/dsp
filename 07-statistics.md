@@ -89,11 +89,9 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 >> T = Twins  
 IT - Identical Twins  
 FT - Fraternal Twins  
-
 P(T) = P(FT) + P(IT) = 1/125 + 1/300 = 17/1500  
   P(T|IT) = 1  
-  P(IT|T) = (P(T|IT) * P(IT)) / P(T) = (1 * 1/300) / 17/1500 = 5/17
-
+  P(IT|T) = (P(T|IT) * P(IT)) / P(T) = (1 * 1/300) / 17/1500 = 5/17  
 *Therefore, the probability of Elvis Presley being an identical twin, given that he is a twin is 5/17 (or 29.4%).*
 
 ---
